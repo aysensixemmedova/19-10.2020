@@ -1,0 +1,217 @@
+#header {
+  width: 100%;
+  position: fixed;
+  margin-top: 10px;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 20px 0;
+          box-shadow: 0 0 20px 0;
+}
+
+#header .logo {
+  padding-left: 20px;
+}
+
+#header .nav ul li {
+  padding: 15px;
+  color: #fff;
+}
+
+#header .ico {
+  color: #fff;
+  padding-left: 20px;
+}
+
+#header .ico i {
+  padding: 0 10px;
+  font-size: large;
+}
+
+.beauty {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  width: 100%;
+  background: url(../photo/travel2-sectionbg2.jpg);
+}
+
+.beauty .beuty-text h1 {
+  font-size: 5em;
+  padding: 0 5.6em;
+}
+
+.location {
+  background: #F7F6F2;
+}
+
+.location h1 {
+  color: #2E2D2D;
+  font-size: 40px;
+  margin-right: 6em;
+  line-height: 51px;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+
+.location p {
+  margin: 30px 70px;
+  font-size: 1.3em;
+  color: #979795;
+}
+
+.location .loca {
+  margin-top: 4em;
+}
+
+.location .loca img {
+  padding-top: 30px;
+}
+
+.location .map {
+  margin-top: 5em;
+}
+
+.dstrict {
+  background: #F7F6F2;
+  overflow: hidden;
+  padding: 4em 0;
+}
+
+.dstrict h2 {
+  padding: 10px 10px;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 51px;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+
+.dstrict .dstrict-itm {
+  overflow: hidden;
+}
+
+.dstrict .dstrict-itm h3 {
+  padding-top: 20px;
+  font-size: 26px;
+}
+
+.dstrict .dstrict-itm h4 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #D5823D;
+}
+
+.dstrict .dstrict-itm p {
+  font-size: 20px;
+  padding: 10px 0;
+  color: #686666;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+
+.dstrict .dstrict-itm .dstrict-img {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.dstrict .dstrict-itm .dstrict-img img {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.dstrict .dstrict-itm .dstrict-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page {
+  background: url(../photo/travel2-places-pic3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px;
+  min-height: 754px;
+}
+
+.wrap {
+  background: #F7F6F2;
+}
+
+.wrap h2 {
+  padding-top: 20px;
+  padding-right: 7 0px;
+  font-size: 43px;
+  line-height: 51px;
+  font-weight: 400;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+
+.wrap .wrap-img {
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px 40px;
+}
+
+.wrap .wrap-img .wrap-itm {
+  padding: 20px;
+}
+
+.wrap .wrap-img .wrap-itm:hover {
+  background: #F2EFE9;
+}
+
+.wrap .wrap-img .wrap-itm h5 {
+  padding: 20px 0;
+  color: #E38430;
+  font-size: 18px;
+}
+
+.about {
+  background: #F7F6F2;
+}
+
+.about h1 {
+  padding: 10px 30px;
+  color: #4e4d4d;
+  font-size: 15px;
+}
+
+.about h1 span {
+  color: #D5823D;
+}
+
+.about h2 {
+  padding: 30px;
+  font-size: 43px;
+  line-height: 51px;
+  font-weight: 400;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+
+.about p {
+  padding: 0 100px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.about .about-itm {
+  padding: 30px;
+  text-align: center;
+}
+
+.about .about-itm img {
+  padding-bottom: 15px;
+}
+
+.about .about-itm h3 {
+  padding-top: 20px;
+  font-size: 31px;
+  line-height: 39px;
+  font-weight: 400;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
